@@ -209,12 +209,9 @@ ul li a{
         gap: 28px;
         
     }
+
     .hero-img{
-        border: 5px solid salmon;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-       
+        
     }
 
     .banner{
@@ -274,4 +271,7 @@ ul li a{
        
         width: 100%;
     }
+
+    
+    
 }
