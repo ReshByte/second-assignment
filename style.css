@@ -205,19 +205,17 @@ ul li a{
 
     .banner-container{
         flex-direction: column-reverse;
-        width:500px;
+        width:485px;
         gap: 28px;
-        
+      
     }
 
-    .hero-img{
-        
-    }
-
+    
     .banner{
        width: 480px;
        margin-right: 10px;
        height: 147px;
+       padding-left: 15px;
 
     }
 
