@@ -503,9 +503,22 @@ ul li a{
     }
 
     nav{
-        margin-left: 16px;
-        margin-right: 16px;
+        margin-left: 50px;
+        margin-right: 10px;
         margin-top: 67px;
+        gap: 100px;
+    }
+
+  
+
+    .cart{
+        position: absolute;
+        text-align: center;
+        top: 95px;
+        left: 320px;
+        width: 30%;
+        padding-right: 0;
+    
     }
 
     .banner-container{
@@ -548,7 +561,14 @@ ul li a{
         gap: 20px;
         row-gap: 30px;
         padding-left: 20px;
+        margin-left: 30px;
+        padding-left: 0;
         
+    }
+
+    .plant-title,.plant-span{
+        margin-left: 35px;
+        font-size: 24px;
     }
 
     .list-grid{
@@ -589,14 +609,20 @@ ul li a{
        
         height: 100%;
 
-        padding-left: 0px;
-        padding-right: 20px;
         
+        padding-right: 0;
+        margin-left: 30px;
+        
+    }
+
+    .description-list{
+        width: 100%;
+        margin-left: 15px;
     }
 
     .lover-image{
         margin-top: 0;
-        width: 440px;
+        width:100%;
         height: 100%;
         text-align: center;
     }
@@ -619,6 +645,7 @@ ul li a{
 
     .lover-title{
         font-size: 24px;
+        margin-left: 15px;
     }
 
 
@@ -663,8 +690,9 @@ ul li a{
 
 
     .colorful-container{
-        width: 100%;
+        width: 485px;
         height: 275px;
+        margin-bottom: 0;
     }
 
     .colorful-title{
