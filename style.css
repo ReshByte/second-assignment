@@ -130,7 +130,7 @@ ul li a{
     color: #E95A08;
 }
 .plant-container{
-    /* border: 2px solid blue; */
+  
     width: 1140px;
     margin: 120px auto;
 }
@@ -265,7 +265,7 @@ ul li a{
    border-radius: 14px;
    text-align: center;
    margin-bottom: 25px;
-   background-image: url('./assets/deal-bloom.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.40)) , url('./assets/deal-bloom.png');
   
 }
 
@@ -277,7 +277,7 @@ ul li a{
    border: none;
    border-radius: 14px;
    text-align: center;
-   background-image: url('./assets/deal-ana.png');
+   background-image:linear-gradient(rgba(0, 0, 0, 0.40)) , url('./assets/deal-ana.png');
    
 }
 
@@ -285,6 +285,7 @@ ul li a{
    font-size: 20px;
    font-weight: 700;
    color: #ffffff;
+   margin-bottom: 19px;
   
 }
 
@@ -300,9 +301,10 @@ ul li a{
 .img-zabo{
     width: 753px;
     height: 423.13;
-    background-image: url('./assets/deal-zabo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40)) , url('./assets/deal-zabo.png');
     border: none;
     border-radius: 14px;
+
 }
 
 .image-flex{
@@ -317,6 +319,7 @@ ul li a{
     font-weight: 700;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 19px;
 }
 
 .zabo-description{
@@ -334,6 +337,52 @@ ul li a{
 
 .image-flex{
     margin-top: 121px;
+}
+
+.colorful-container{
+    width: 100%;
+    height: 533px;
+    background-image:  url('./assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.colorful-title{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.form{
+    text-align: center;
+    gap: 0;
+    margin-left:-185px;
+}
+
+#colorful-input{
+    width: 644px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+.colorful-button{
+    position:absolute;
+    height: 50px;
+    width: 186px;
+   border: none;
 }
 
 
@@ -505,6 +554,34 @@ ul li a{
         margin-left: 0;
         width: 100%;
     }
+
+
+    .colorful-container{
+        width: 100%;
+    }
+
+    .colorful-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .form{
+
+       padding: 23px;
+       margin-left: 2px;
+       margin-right: 120px;
+     
+    }
+
+    #colorful-input{
+        width: 100%;
+    }
+
+    .colorful-button{
+        width: 24%;
+    }
+
+    
 
     
 
