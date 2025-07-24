@@ -49,49 +49,49 @@
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                     <div class="list-grid">
                         <img src="./assets/sample-flower-image.png" class="sell-image">
                         <h4 class="flower-name inter-font">Lily Blossom</h4>
                         <h4 class="flower-cost inter-font">20 USD</h4>
-                        <button class="order-btn inter-font">ADD TO CART</button>
+                        <button class="order-btn inter-font" onclick="clickButton()">ADD TO CART</button>
                     </div>
                    </div>
                  </div>
@@ -160,15 +160,59 @@
                                 <div class="colorful">
                 <h1 class="colorful-title noto-serif-font">Join the colorful Bunch</h1>
                 <form class="form">
-                    <input type="email" value="Write Email" id="colorful-input" class="inter-font">
-                    <button class="colorful-button inter-font order-btn">Subscribe</button>
+                    <input type="email" value="Write Email" id="colorful-input" class="inter-font" required>
+                    <button class="colorful-button inter-font order-btn" onclick="clickSubscribe()">Subscribe</button>
                 </form>
             </div>
                  </div>
           </section>
     </main>
-    <footer>
+    <footer class="footer">
+          <div class="footer-container">
+            <img src="./assets/logo.png" class="footer-image">
+            <p class="footer-description inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+          </div>
 
+         <div class="ul-list">
+             <div class="ul-list-1">
+            <ul class="inter-font">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="ul-list-2">
+            <ul class="inter-font">
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Help Center</a></li>
+            </ul>
+          </div>
+         </div>
+
+         <div class="footer-logo">
+            <img src="./assets/icon-linkedin.png" class="social-media-logo">
+            <img src="./assets/icon-twitter.png" class="social-media-logo">
+            <img src="./assets/icon-facebook.png" class="social-media-logo">
+            <img src="./assets/icon-youtube.png" class="social-media-logo">
+         </div>
     </footer>
+
+
+
+    <script>
+        function clickButton() {
+            alert('Flower Added to Cart');
+        }
+
+      function clickSubscribe() {
+        alert('SUBSCRIBED');
+      }
+    </script>
 </body>
 </html>
